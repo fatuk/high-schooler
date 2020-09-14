@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "High Schooler",
+  "description": "Тест на переполнение верстки",
+  "version": "0.1",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "extension_icon16.png",
+      "32": "extension_icon32.png",
+      "128": "extension_icon128.png"
+    }
+  }
+}
